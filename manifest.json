@@ -1,0 +1,17 @@
+{
+  "name": "Linkedin Helper",
+  "version": "0.1",
+  "description": "Removes already applieds automatically",
+  "permissions": [
+    "activeTab", "scripting", "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/jobs", "https://www.linkedin.com/jobs*", "https://www.linkedin.com/jobs/*", "https://www.linkedin.com/jobs//*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 3
+}
+
