@@ -17,7 +17,7 @@ If you encounter any issues on other websites or wish to temporarily disable the
 # Manual Installation Instructions for liHelper
 
 **Introduction:**
-These instructions will guide you through the process of manually installing and using [Your Extension Name] in your Chrome browser. Please follow the steps below carefully.
+These instructions will guide you through the process of manually installing and using liHelper in your Chrome browser. Please follow the steps below carefully.
 
 **Prerequisites:**
 - Google Chrome web browser installed on your computer.
