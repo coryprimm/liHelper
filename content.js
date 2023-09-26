@@ -1,3 +1,4 @@
+const currentURL = window.location.href;
 // Wrap your script in a function
 function removeJobCards() {
     // Get all top-level divs with class "job-card-container"
