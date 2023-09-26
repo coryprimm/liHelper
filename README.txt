@@ -1,6 +1,6 @@
-LinkedInHelper: A Chrome Plugin for Effortless Job Searching
+linHelper: A Chrome Plugin for Effortless Job Searching
 
-LinkedInHelper is a Chrome plugin designed to enhance your job search experience by automatically removing job listings you've already applied to from your search results.
+liHelper is a Chrome plugin designed to enhance your job search experience by automatically removing job listings you've already applied to from your search results.
 
 Compatibility
 
