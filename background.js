@@ -13,6 +13,7 @@ async function getTabID() {
         }
     });
 }
+// 
 
 chrome.tabs.onUpdated.addListener(async function (tabId, changeInfo, tab) {
     const scriptInjectionResult = await getTabID().then((targetTabId) => {
