@@ -1,7 +1,7 @@
 {
-  "name": "Linkedin Helper",
+  "name": "liHelper",
   "version": "0.1",
-  "description": "Removes already applieds automatically",
+  "description": "Removes already-applieds automatically",
   "permissions": [
     "activeTab", "scripting", "tabs"
   ],
