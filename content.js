@@ -2,7 +2,6 @@ function removeJobCards() {
   const jobCardContainers = document.querySelectorAll('.job-card-container');
   jobCardContainers.forEach((container) => {
     const appliedTextElements = container.querySelectorAll('.tvm__text--neutral');
-    
     for (const element of appliedTextElements) {
       if (element.textContent.includes('Applied')) {
         container.remove();

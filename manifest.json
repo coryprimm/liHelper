@@ -1,7 +1,7 @@
 {
   "name": "liHelper",
-  "version": "0.1",
-  "description": "Removes already-applieds automatically. Version 1, only activate when visiting li",
+  "version": "1.0",
+  "description": "Removes already-applieds automatically. Version 1; only activate when visiting li",
   "permissions": [
     "activeTab", "scripting", "tabs"
   ],
