@@ -12,12 +12,8 @@ function removeJobCards() {
 }
   
 function runRemoveJobCards() {
-    removeJobCards();
-    setTimeout(runRemoveJobCards, 1000); 
+  removeJobCards();
+  setTimeout(runRemoveJobCards, 1200); 
 }
 
 runRemoveJobCards(); 
-
-document.addEventListener('click', () => {
-  setTimeout(removeJobCards, 1000);
-});
