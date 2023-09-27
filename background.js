@@ -13,7 +13,6 @@ async function getTabID() {
         }
     });
 }
-// 
 
 chrome.tabs.onUpdated.addListener(async function (tabId, changeInfo, tab) {
     const scriptInjectionResult = await getTabID().then((targetTabId) => {
@@ -21,13 +20,6 @@ chrome.tabs.onUpdated.addListener(async function (tabId, changeInfo, tab) {
             return chrome.scripting.executeScript({ target: { tabId }, files: ["content.js"] });
         }
     });
-
-    // Optionally, you can handle the result of script injection here.
-    if (scriptInjectionResult) {
-        // Script was injected successfully.
-    } else {
-        // Script injection failed or conditions were not met.
-    }
 });
 
 
